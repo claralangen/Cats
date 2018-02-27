@@ -1,0 +1,33 @@
+body {
+  background: #e4eeee;
+  font-family: "Playfair Display",serif;
+  margin: 0; }
+
+.logo {
+  margin-top: 52px;
+  margin-right: 68px; }
+
+.container {
+  width: 80%;
+  margin: 100px 140px;
+  background: white;
+  box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.08); }
+  .container-title {
+    font-size: 100px;
+    font-weight: 900;
+    color: #688181;
+    text-align: center;
+    margin-bottom: 100px; }
+  .container-carac {
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 35px; }
+  .container-text {
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: #4a4a4a;
+    font-weight: normal;
+    margin-top: 10px; }
+
+/*# sourceMappingURL=read.css.map */

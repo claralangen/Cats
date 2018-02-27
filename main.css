@@ -1,0 +1,55 @@
+body {
+  background: #e4eeee;
+  font-family: "Playfair Display",serif;
+  margin: 0; }
+
+.header {
+  background: white;
+  height: 490px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.08); }
+  .header-title {
+    margin-top: 52px;
+    margin-left: 443px;
+    font-size: 64px;
+    font-weight: 900;
+    color: #688181; }
+  .header-logos {
+    margin-top: 52px;
+    margin-right: 68px;
+    display: flex;
+    flex-direction: column; }
+  .header-deleteLogo {
+    display: none; }
+
+.cats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 153px 140px; }
+  .cats-fullSquare {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.08); }
+    .cats-fullSquare a {
+      color: #688181;
+      font-size: 36px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 25px; }
+    .cats-fullSquare :hover {
+      color: white; }
+  .cats-emptySquare {
+    width: 360px;
+    height: 360px;
+    border: dashed 1px #688181;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+/*# sourceMappingURL=main.css.map */
